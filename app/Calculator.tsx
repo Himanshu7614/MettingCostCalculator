@@ -17,7 +17,7 @@ function sumArray(array:number[]) {
 function Calculator() {
   const [selectedTime, setSelectedTime] = useState("15");
   const [person, setPerson] = useState("1");
-  const [selectedGrades, setSelectedGrades] = useState([]);
+  const [selectedGrades, setSelectedGrades] =  useState<number[]>([]);
 
   const grades = [
     { value: 50, label: "Grade 4" },
