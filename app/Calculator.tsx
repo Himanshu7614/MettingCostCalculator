@@ -37,7 +37,7 @@ function Calculator() {
     }
   };
 
-const cost  = (JSON.parse(selectedTime)/60)*(sumArray(selectedGrades)/JSON.parse(person))
+const cost  = (JSON.parse(selectedTime)/60)*(sumArray(selectedGrades))
 
   //   return (
   //   let cost =
